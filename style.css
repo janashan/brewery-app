@@ -1,0 +1,57 @@
+body{
+    background: linear-gradient(
+        to right top,
+        #d16ba5,
+        #c777b9,
+        #ba83ca,
+        #aa8fd8,
+        #9a9ae1,
+        #8aa7ec,
+        #79b3f4,
+        #69bff8,
+        #505455,
+        #41dfff,
+        #46eefa,
+        #5ffbf1
+      );
+      
+    
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+    flex-wrap: wrap;
+
+}
+
+:root{
+    font-size: 20px;
+}
+
+.side-heading{
+    font-weight: bold;
+}
+
+.container{
+    font-family: 'Crimson Text', serif;
+    background:whitesmoke;
+    max-width: 20rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 3px 3px 10px 0px rgba(50, 50, 50, 0.1);
+    transition: .2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.container:hover{
+    color: crimson;
+    transform: scale(1.1);
+    
+}
+
+.web-link{
+    text-decoration: none;
+    color: teal;
+}
